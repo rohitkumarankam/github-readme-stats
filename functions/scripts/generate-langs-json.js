@@ -23,8 +23,8 @@ axios
 
     //Debug Print
     //console.dir(languageColors);
-    fs.writeFileSync(
-      LANGS_FILEPATH,
-      JSON.stringify(languageColors, null, "    "),
-    );
+    // fs.writeFileSync(
+    //   LANGS_FILEPATH,
+    //   JSON.stringify(languageColors, null, "    "),
+    // );
   });

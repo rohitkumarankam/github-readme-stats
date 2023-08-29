@@ -112,4 +112,4 @@ const buildReadme = () => {
     .join("\n");
 };
 
-fs.writeFileSync(TARGET_FILE, buildReadme());
+// fs.writeFileSync(TARGET_FILE, buildReadme());
